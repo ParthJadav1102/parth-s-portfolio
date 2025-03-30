@@ -7,5 +7,11 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
 };
+const nextConfig = {
+  output: 'export',
+  distDir: 'out',
+};
+
+module.exports = nextConfig;
 
 export default nextConfig;
